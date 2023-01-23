@@ -1,0 +1,30 @@
+.Pages-container{
+    // border: 1px solid red;
+    width: 20%;
+    .ant-list-item{
+        margin: 0%;
+        padding: 3%;
+        padding-left: 0%;
+    }
+    .pages-title {
+        margin-top: 0%;
+        margin-bottom: 4%;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        text-align: start;
+    }
+    .pages-list-container{
+        .pages-list-item{
+            .pages-matter{
+                margin: 0%;
+                color: white;
+            }
+            .pages-matter:hover{
+                transition: 0.5s;
+                cursor: pointer;
+                color: #fe6f41;
+            }
+        }
+    }
+}

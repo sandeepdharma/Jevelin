@@ -1,0 +1,63 @@
+.Curosal-container {
+    font-family: 'Montserrat',
+        sans-serif;
+    color: #8a8a8a;
+    background-color: #F4F4F4;
+    // border: 1px solid yellow;
+    display: flex;
+    padding: 7% 0%;
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        filter: invert(100%);
+        // margin-bottom: 20%;
+        // border: 1px solid red;
+        font-size: 10px;
+        width: 25vw;
+        height: 7vw;
+    }
+
+    .curosal-matter {
+        padding: 4% 12%;
+        font-size: 14px;
+    }
+
+    .curosal-teacher {
+        color: black;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .curosal-type {
+        font-size: 13px;
+    }
+
+    .curosal-left-container {
+        // border: 1px solid red;
+        width: 50%;
+
+        .curosal-title {
+            margin: 5%;
+            letter-spacing: 7px;
+            font-weight: 400;
+            color: #919191;
+            font-size: 14px;
+        }
+
+        .curosal-heading {
+            color: black;
+            font-weight: 500;
+            margin-bottom: 7%;
+            font-size: 26px;
+            font-weight: bold;
+        }
+    }
+
+    .curosal-right-container {
+        // border: 1px solid red;
+        width: 50%;
+
+    }
+}
+
+// 

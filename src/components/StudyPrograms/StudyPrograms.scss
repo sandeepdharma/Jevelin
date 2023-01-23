@@ -1,0 +1,187 @@
+.StudyPrograms-container {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    .ant-menu>.ant-menu-item:hover,
+    .ant-menu>.ant-menu-submenu:hover,
+    .ant-menu>.ant-menu-item-active,
+    .ant-menu>.ant-menu-submenu-active,
+    .ant-menu>.ant-menu-item-open,
+    .ant-menu>.ant-menu-submenu-open,
+    .ant-menu>.ant-menu-item-selected,
+    .ant-menu>.ant-menu-submenu-selected {
+        color: #FE6F41;
+        font-weight: 600;
+        border-bottom: 4px solid #FE6F41;
+    }
+
+    font-family: 'Montserrat',
+    sans-serif;
+    // border: 1px solid red;
+    padding-top: 8%;
+    padding-bottom: 2%;
+
+    .study-title-container {
+        text-align: center;
+
+        .study-title {
+            letter-spacing: 7px;
+            font-size: 14px;
+            font-weight: 400;
+            color: #919191;
+        }
+
+        .study-heading {
+            margin-top: 2%;
+            font-weight: 600;
+            font-size: 26px;
+            color: #3f3f3f;
+        }
+    }
+
+    .study-menu-container {
+        // border: 1px solid red;
+        padding: 0% 30%;
+        margin-top: 4%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .study-list-container {
+        padding: 0% 1%;
+        margin-top: 4%;
+        // border: 1px solid red;
+
+        .study-list-item {
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            // border: 1px solid red;
+            width: 20vw;
+            height: 40vh;
+            margin: 2%;
+            margin-top: 8%;
+
+            .study-image-container {
+                // border: 1px solid red;
+                height: 67%;
+                transition: 1s;
+
+
+                .study-image {
+                    width: 100%;
+                }
+
+
+            }
+
+            .hover-container:hover {
+                // transform:translateX(-10%);
+                .test-inner {
+
+                    padding: 5%;
+                    display: block;
+                    background-color: #FE6F41;
+                    opacity: 0.8;
+                    // color: rgba(0, 0, 0, 0.5);
+                    color: white;
+                    height: 100%;
+
+                }
+            }
+
+            .hover-container {
+
+                background-size: 'cover';
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                // position: relative;
+
+                .test-inner {
+                    display: none;
+                }
+
+                .hover-inner-container {
+                    // border: 1px solid blue;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+
+                    .hover-icon {
+                        // border: 1px solid red;
+                        font-size: 35px;
+                    }
+
+                    .hover-type {
+                        // border: 1px solid red;
+                        font-weight: bold;
+                    }
+                }
+
+                // border: 1px solid red;
+                height: 100%;
+                text-align: start;
+
+                .hover-title {
+                    // border: 1px solid red;
+                    font-size: 18px;
+                }
+
+                .hover-matter {
+                    // border: 1px solid red;
+                    font-size: 16px;
+                    height: 50%;
+                }
+
+            }
+        }
+
+        .study-matter-container {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 5%;
+
+            .study-title {
+                // border: 1px solid red;
+                text-align: start;
+                width: 50%;
+                font-weight: 700;
+                display: flex;
+                padding-left: 10%;
+                font-size: 14px;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            .study-type {
+                width: 50%;
+                font-size: 11px;
+                // border: 1px solid red;
+                color: #919191;
+                font-family: 'Montserrat', sans-serif;
+
+            }
+        }
+    }
+
+}
+
+.study-more-button-container {
+    margin: 6% 0%;
+
+    // border: 1px solid red;
+    .study-button {
+        padding: 1.4% 2.5%;
+        border-radius: 25px;
+        font-size: 11px;
+        color: white;
+        background-color: black;
+        font-weight: 600;
+        // word-spacing: 1px;
+        border: none;
+    }
+
+    .study-button:hover {
+        background-color: #FE6F41;
+        transition: 0.3s ease;
+    }
+}

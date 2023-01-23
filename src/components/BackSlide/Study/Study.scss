@@ -1,0 +1,35 @@
+.Study-container {
+    // border: 1px solid red;
+    width: 23%;
+
+    .study-title {
+        margin-top: 0%;
+        margin-bottom: 4%;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        text-align: start;
+    }
+
+    .study-image-container {
+        margin-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        // border: 1px solid red;
+
+        .study-image {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            margin-right: 3%;
+            margin-bottom: 3%;
+        }
+        .stydy-image-con{
+            height: 100px;
+            width: 100px;
+            border: 1px solid red;
+        }
+        
+    }
+}

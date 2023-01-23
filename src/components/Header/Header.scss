@@ -1,0 +1,285 @@
+.Header-container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+    .hidden-top {
+        position: absolute;
+        animation-name: fadeInDown;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        // animation-delay: 1s;
+
+        .top-image {
+            width: 50%;
+        }
+    }
+
+    .hidden-bottom {
+        // position: absolute;
+        height: 30%;
+        width: 100%;
+        overflow: hidden;
+
+        .bottom-image {
+            width: 40%;
+            animation-name: fadeInUp;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-duration: 4s ease-in-out;
+            // animation-delay: 1s;
+        }
+    }
+
+    .header-navbar-container {
+        width: 90%;
+        margin: auto;
+        height: 15vh;
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+        position: relative;
+        // border: 1px solid red;
+
+        .image-container {
+            cursor: pointer;
+            // border: 1px solid blue;
+            padding: 2.5%;
+            // padding-left: 1%;
+
+            .nav-title-image {
+                width: 85%;
+            }
+        }
+
+        .header-nav-menu-container {
+            // border: 1px solid blue;
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+
+            .each-menu-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                // border: 1px solid red;
+                width: 30%;
+
+                .menu-icon-container {
+                    width: 30%;
+                    // border: 1px solid red;
+                    margin-right: 7px;
+
+                    .icon {
+                        font-size: 35px;
+                        font-weight: bold;
+                        color: #fe6f41;
+                        // border: 1px solid red;
+                    }
+                }
+
+                .menu-matter-container {
+                    text-align: start;
+                    width: 70%;
+                    // border: 1px solid red;
+
+                    .matter {
+                        font-size: 12px;
+                        font-weight: bold;
+                        margin: 0%;
+                        margin-top: 2%;
+                    }
+
+                    .mobile-number {
+                        font-size: 12px;
+                        margin: 0%;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .image-container {
+        // border: 1px solid red;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+
+        .left-image {
+            // border: 1px solid red;
+            width: 23%;
+            position: absolute;
+            animation-name: fadeInLeft;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            // animation-delay: 1s;
+        }
+
+        .right-image-container {
+            display: flex;
+            animation-name: fadeInRight;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            // animation-delay: 1s;
+            position: absolute;
+            justify-content: flex-end;
+            margin-top: 10%;
+
+            .right-image {
+                width: 30%;
+            }
+
+            .right-image-large {
+                width: 20%;
+            }
+        }
+    }
+
+    .header-text-container {
+        // border: 1px solid red;
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .header-paragraph {
+            text-align: start;
+            // position: relative;
+            animation-name: fadeInLeft;
+            animation-duration: 3.9s;
+            animation-iteration-count: infinite;
+            // margin-bottom: 55%;
+            // animation-duration: 4s ease-in-out;
+            // animation-delay: 1s;
+            letter-spacing: 5px;
+            color: #fe6f41;
+            font-weight: bold;
+            // border: 1px solid red;
+            text-align: center;
+        }
+
+        .header-heading {
+            margin: 0%;
+            animation-name: fadeInUpBig;
+            animation-duration: 3.9s;
+            animation-iteration-count: infinite;
+            // animation-delay: 1s;
+            font-weight: bold;
+            font-size: 50px;
+            width: 50%;
+        }
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    @keyframes fadeInLeft {
+        from {
+            opacity: 0;
+            transform: translate3d(-100%, 0, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(100, 0, 0);
+        }
+    }
+
+    @keyframes fadeInRight {
+        from {
+            opacity: 0;
+            transform: translate3d(50%, 0, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    @keyframes fadeInUpBig {
+        from {
+            opacity: 0;
+            transform: translate3d(0, 400px, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    @keyframes fadeInDown {
+        from {
+            opacity: 0;
+            transform: translate3d(0, -100%, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .slide-right {
+//     width: 100%;
+//     overflow: hidden;
+//     margin-left: 300px;
+//     max-width: 500px
+//   }
+
+//   .slide-right h2 {
+//     animation:  slide-right  forwards infinite;
+//       transform:translateY(+100%);
+//       animation-duration: 4s;
+
+//   }
+
+//   @keyframes slide-right {
+//     to {
+//       transform:translateX(0);
+//     }
+//   }

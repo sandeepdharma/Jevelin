@@ -1,0 +1,270 @@
+.NewsLetter-container {
+    display: flex;
+    padding: 150px 0px 100px 0px;
+    background-image: url(//jevelin.shufflehound.com/education/wp-content/uploads/sites/20/2018/06/Inside-pages3.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top right;
+    padding-bottom: 5%;
+
+
+
+    .newsletter-image-container {
+        padding-left: 5%;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+
+        .news-card-container:hover {
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+
+        .news-card-container {
+            // border: 1px solid #e2e1e1;
+            text-align: start;
+            width: 48%;
+
+            .card-image-container:hover {
+                .hover-container {
+                    display: block;
+                    border: 1px solid white;
+                    background-color: #fe6f41;
+                    opacity: 0.5;
+                    height: 100%;
+                    display: flex;
+
+                    .link-icon-container:hover {
+                        transition-delay: 1s;
+
+                        .round-button {
+                            border-radius: 55px;
+                            padding: 10%;
+                            border: none;
+                            background-color: white;
+
+                            .link-icon {
+                                font-size: 30px;
+                                color: red;
+                            }
+                        }
+                    }
+
+
+
+                    .link-icon-container {
+                        width: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .round-button {
+                            // border-radius: 55px;
+                            // padding: 10%;
+                            border: none;
+                            background-color: transparent;
+
+                            .link-icon {
+                                font-size: 30px;
+                                color: white;
+                            }
+                        }
+                    }
+
+                    .zoom-icon-container:hover {
+                        .round-button {
+                            border-radius: 55px;
+                            padding: 10%;
+                            // padding-left: 12%;
+                            // padding-right: 12%;
+                            border: none;
+                            background-color: white;
+
+                            .zoom-icon {
+                                font-size: 30px;
+                                color: red;
+                            }
+                        }
+                    }
+
+                    .zoom-icon-container {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 50%;
+
+                        .round-button {
+                            border: none;
+                            background-color: transparent;
+
+
+                            .zoom-icon {
+                                color: white;
+                                font-size: 30px;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+            .card-image-container {
+                height: 42%;
+
+
+                .card-image {
+                    display: block;
+                    width: 100%;
+                }
+
+                .hover-container {
+                    display: none;
+                }
+            }
+
+            .card-matter-box {
+                background-color: white;
+
+                .card-matter-container {
+                    padding: 7.5%;
+                    // border: 1px solid red;
+
+                    .date-matter {
+                        font-size: 13px;
+                        cursor: pointer;
+                        color: #8a8a8a;
+                    }
+
+                    .title-matter {
+                        font-size: 28px;
+                        font-weight: bold;
+                        color: #3f3f3f;
+                    }
+
+                    .title-matter:hover {
+
+                        color: #fe6f41;
+                    }
+
+                    .detailed-matter {
+                        font-size: 14px;
+                        color: #8a8a8a;
+                    }
+                }
+
+                .card-line-container {
+                    // border: 1px solid red;
+                    padding-right: 7%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .line {
+
+                        width: 75%;
+                        margin-top: 1.5%;
+
+                    }
+
+                    .card-icon-container {
+                        // border: 1px solid red;
+                        background-color: lightgray;
+                        display: inline-flex;
+                        justify-content: center;
+                        height: 20px;
+                        // padding: 1% 3% ;
+                        padding-bottom: 8%;
+                        padding-top: 4%;
+                        padding-left: 5%;
+                        padding-right: 5%;
+                        border-radius: 25px;
+
+                        .card-basket-icon {
+                            font-size: 19px;
+                        }
+
+                        .count {
+                            font-size: 13px;
+                            padding-left: 5%;
+                        }
+                    }
+
+                    .card-icon-container:hover {
+                        background-color: #fe6f41;
+                        color: white;
+                    }
+
+                }
+
+                .card-type-matter-container {
+                    // border: 1px solid blue;
+                    background-color: white;
+                    padding-left: 7%;
+
+                    .card-type-matter {
+                        font-size: 14px;
+                        color: #8a8a8a;
+                        padding-bottom: 5%;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .newsletter-form-container {
+        // border: 1px solid red;
+        width: 35%;
+        margin-left: 5%;
+        text-align: start;
+
+        .ant-form {
+            margin-top: 7%;
+            width: 87%;
+        }
+
+        .ant-input {
+            // border: 1px solid red;
+            border-radius: 25px;
+            padding: 2.9% 9%;
+        }
+
+        .ant-input::placeholder {
+            font-style: italic;
+        }
+
+        .news-form-matter {
+            letter-spacing: 5px;
+            color: #919191;
+        }
+
+        .news-form-heading {
+            font-size: 36px;
+            width: 50%;
+            font-weight: bolder;
+            color: #3f3f3f;
+        }
+
+        .line {
+            margin-top: 7%;
+            width: 10%;
+            font-size: 10px;
+            border-color: black;
+        }
+
+        .shop-button {
+            font-size: 13px;
+            padding: 4% 8%;
+            border-radius: 25px;
+            background-color: #fe6f41;
+            color: white;
+            border: none;
+            font-weight: bold;
+        }
+
+        .shop-button:hover {
+            background-color: #3f3f3f;
+        }
+    }
+
+
+}

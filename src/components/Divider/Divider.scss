@@ -1,0 +1,42 @@
+.Divider-container {
+    background-image: url(https://jevelin.shufflehound.com/education/wp-content/uploads/sites/20/2018/06/Marble-texture.jpg);
+    padding: 8%;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    .divider-icon {
+        font-size: 30px;
+    }
+
+    .divider-heading {
+        margin: auto;
+        margin-top: 5%;
+        font-weight: bold;
+        font-size: 20px;
+        width: 70%;
+        line-height: 35px;
+        color: #363636;
+    }
+
+    .divider-matter {
+        margin-top: 5%;
+        font-size: 13px;
+        font-weight: bold;
+        color: #fe6f41;
+    }
+
+
+}
+
+.Divider-container:hover {
+
+    .divider-heading {
+        color: #fe6f41;
+    }
+
+    .divider-matter {
+        color: #3e3e3e;
+    }
+}
+

@@ -1,0 +1,92 @@
+.EachShop-container {
+    // font-family: 'Montserrat', sans-serif;
+
+    .ant-col {
+        width: 100%;
+        // border: 1px solid red;
+    }
+
+    .ant-list {
+        // border: 1px solid red;
+        margin-top: 1%;
+
+        .ant-list-item {
+            display: flex;
+            // border: 1px solid green;
+            width: 100%;
+            padding: 0%;
+
+        }
+    }
+
+    .eachshop-list-item {
+        .eachshop-image-container {
+            // border: 1px solid red;
+            width: 100%;
+
+            .eachshop-image {
+                cursor: pointer;
+                width: 100%;
+            }
+        }
+
+        .eachshop-matter-container {
+            margin-top: 9%;
+            text-align: start;
+            cursor: pointer;
+
+            .eachshop-title {
+                font-weight: 700;
+                color: #3f3f3f;
+                margin-bottom: 0%;
+            }
+
+            .eachshop-type {
+                margin-top: 1.7%;
+                color: #8a8a8a;
+            }
+        }
+
+        .eachshop-line-container {
+            // border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+
+            .line {
+                width: 75%;
+                // margin-top: 2%;
+
+            }
+
+            .eachshop-icon-container {
+                background-color: lightgray;
+                display: inline-flex;
+                padding: 5%;
+                border-radius: 25px;
+
+                .eachshop-basket-icon {
+                    font-size: 16px;
+                }
+            }
+
+            .eachshop-icon-container:hover {
+                background-color: #fe6f41;
+                ;
+                color: white;
+                ;
+            }
+
+        }
+
+        .eachshop-rate-container {
+            text-align: start;
+
+            .eachshop-rate {
+                margin-top: 0%;
+                color: #3f3f3f;
+                font-size: 17px;
+                font-weight: 700;
+            }
+        }
+    }
+}

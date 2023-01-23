@@ -1,0 +1,14 @@
+.News-container{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    color: #e3e3e3;
+    // border: 1px solid red;
+    width: 18%;
+    .news-title{
+        margin-top: 0%;margin-bottom: 4%;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+    }
+}

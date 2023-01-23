@@ -1,0 +1,52 @@
+.Counter-container {
+    // margin-left: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 95%;
+    // border: 1px solid red;
+    background-color: white;
+    padding: 5% 0%;
+    margin: auto;
+    position: absolute;
+    top: 6.4%;
+    left: 2.5%;
+
+    .each-count-container {
+
+        display: flex;
+        justify-content: space-around;
+        // border: 1px solid red;
+
+        .each-count {
+            // border: 1px solid blue;
+            display: flex;
+
+
+            .count {
+                // border: 1px solid red;
+                width: 100px;
+                font-size: 45px;
+                font-weight: bolder;
+                letter-spacing: 3px;
+                border: 1px solid #ffd9ce;
+                border-left: none;
+                border-top: none;
+                border-bottom: none;
+                padding-right: 6%;
+
+
+            }
+
+            .matter {
+                padding-left: 8%;
+                text-align: start;
+                // border: 1px solid red;
+                margin: auto;
+                // margin-bottom: 0%;
+                width: 50%;
+                font-size: 12px;
+                font-weight: bolder;
+            }
+        }
+
+    }
+}

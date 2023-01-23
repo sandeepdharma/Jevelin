@@ -1,0 +1,36 @@
+.About-container {
+    // border: 1px solid red;
+    width: 20%;
+    text-align: start;
+.about-matter{
+    margin-top: 5%;
+    font-size: 13px;
+}
+    .about-icons-container {
+        // border: 1px solid red;
+        margin-top: 10%;
+    }
+
+    .about-icons {
+        // border: 1px solid red;
+        cursor: pointer;
+        font-size: 21px;
+        margin-right: 9%;
+        // font-family: montserrat;
+    }
+}
+// @media only screen and (min-width:'768px') {
+//     .About-container {
+//             border: 1px solid red;
+// width: 95%;
+// .about-matter{
+// margin-top: 2%;
+// }
+// .about-icons-container {
+// margin-top: 2%;
+// }
+//  .about-icons {
+// margin-right: 3%;
+// }
+//     }
+// }

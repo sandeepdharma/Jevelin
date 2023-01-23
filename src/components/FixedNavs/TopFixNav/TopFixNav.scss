@@ -1,0 +1,94 @@
+.TopFixNav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .lessTop {
+        top: 0px;
+        position: fixed;
+        background-color: white;
+        border-radius: 5px;
+        width: 88%;
+        display: flex;
+        z-index: 1;
+        justify-content: space-between;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .top {
+        top: 85px;
+        position: absolute;
+        border-radius: 5px;
+        width: 88%;
+        display: flex;
+        z-index: 1;
+        justify-content: space-between;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    .menu-main-container {
+        // border: 1px solid blue;
+        display: flex;
+        width: 50%;
+
+        .menu-container {
+            // border: 1px solid red;
+            margin: auto;
+            .menu-item:hover {
+                color: #3f3f3f;
+            }
+
+            .menu-item {
+                // border: 1px solid blue;
+                margin: auto;
+                font-size: 13px;
+                font-weight: bold;
+                color: #8a8a8a;
+                cursor: pointer;
+                text-decoration: none;
+            }
+
+            .active {
+                color: #fe3f41;
+            }
+
+            .non-active {
+                color: #8a8a8a;
+            }
+        }
+    }
+
+
+    .nav-icons-container {
+        height: 100%;
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+
+        .ant-badge {
+            width: 100%;
+            color: #8a8a8a;
+        }
+
+        .icon-div {
+            margin: 0%;
+            padding: 7%;
+            width: 100%;
+            // border-top: none;
+            // border-bottom: none;
+            // border-right: none;
+            color: #8a8a8a;
+            cursor: pointer;
+            border-left: 0.4px solid #e0dfdf;
+
+        }
+
+        .nav-icons {
+            font-size: 20px;
+            width: 100%;
+        }
+
+    }
+}

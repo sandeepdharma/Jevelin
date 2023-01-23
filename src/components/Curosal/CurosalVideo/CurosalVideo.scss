@@ -1,0 +1,26 @@
+.CurosalVideo-container {
+    padding: 5%;
+
+    .video-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        height: 70vh;
+        background-image: url('https://jevelin.shufflehound.com/education/wp-content/uploads/sites/20/2018/06/michael-shannon-567440-unsplash.jpg');
+    .play-button{
+        color: white;
+        font-size: 58px;
+        background-color: grey;
+        border-radius: 30px;
+    }
+    .play-button:hover{
+        color: rgb(250, 129, 73);
+        font-size: 58px;
+        background-color: white;
+        border-radius: 30px;
+    }
+    
+    
+    }
+}
