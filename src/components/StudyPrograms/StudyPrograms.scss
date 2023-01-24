@@ -1,7 +1,13 @@
 .StudyPrograms-container {
     background-color: white;
     font-family: 'Montserrat', sans-serif;
-
+    
+    .ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after{
+        border-bottom-width: 0px;
+    }
+    .ant-menu-light.ant-menu-horizontal >.ant-menu-item::after {
+        border-bottom-width: 0px;
+    }
     .ant-menu>.ant-menu-item:hover,
     .ant-menu>.ant-menu-submenu:hover,
     .ant-menu>.ant-menu-item-active,
@@ -13,6 +19,7 @@
         color: #FE6F41;
         font-weight: 600;
         border-bottom: 4px solid #FE6F41;
+        
     }
 
     font-family: 'Montserrat',

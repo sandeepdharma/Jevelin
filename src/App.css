@@ -1,4 +1,9 @@
 .App {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  
+}
+::selection {
+  background-color: #fe6f41;
+  color: white;
 }
